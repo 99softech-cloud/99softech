@@ -9,7 +9,7 @@ const Home = () => {
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
-            Empowering Innovation with <span className="text-yellow-300">99softech LLP</span>
+            Empowering Innovation with <span className="text-yellow-300">99softech</span>
           </h1>
           <p className="mt-6 text-lg text-gray-100">
             We craft high-quality software, web, and mobile solutions that scale with your business.
@@ -125,19 +125,19 @@ const Home = () => {
           {[
             {
               name: "Amit Verma",
-              role: "CTO, RetailCo",
+              role: "CTO",
               feedback:
                 "99softech built a robust retail management system that scaled perfectly with our growth. Amazing tech expertise!",
             },
             {
               name: "Priya Sharma",
-              role: "Founder, EduGrow",
+              role: "Founder",
               feedback:
                 "Their team helped us launch our edtech platform faster than we imagined — smooth, agile, and reliable.",
             },
             {
               name: "John Doe",
-              role: "CEO, FinCloud",
+              role: "CEO",
               feedback:
                 "Professionalism and technical brilliance — 99softech is our long-term tech partner now.",
             },

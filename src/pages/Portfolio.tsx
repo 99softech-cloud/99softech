@@ -1,68 +1,94 @@
 import { motion } from "framer-motion";
+import employeePortal from "../assets/employee_portal.png";
+import myvastuastro from "../assets/myvastuastro.png";
+import myvastuastrologer from "../assets/myvastuastrologer.png";
+import vastudevayah from "../assets/vastudevayah.png";
+import retails_system from "../assets/retails_system.png";
+import cloud_crm from "../assets/cloud_crm.png";
+import ecommerce from "../assets/ecommerce.png";
+import health from "../assets/health.png";
+import erp_system from "../assets/erp_system.png";
+import ai_chatbot from "../assets/ai_chatbot.png";
+import loan_system from "../assets/loan_system.png";
+import inventory_system from "../assets/inventory_system.png";
+
 
 const Portfolio = () => {
  const projects = [
-  {
-    name: "Smart Retail System",
-    desc: "AI-powered retail management solution with inventory optimization and sales analytics.",
-    tech: ["React", "Node.js", "Python", "AI/ML"],
-    image: "/images/retail-system.png",
-  },
-  {
-    name: "Cloud CRM",
-    desc: "Customer relationship management system hosted on AWS with secure, scalable architecture.",
-    tech: ["React", "AWS", "Node.js", "MongoDB"],
-    image: "/images/cloud-crm.png",
-  },
-  {
-    name: "E-commerce Platform",
-    desc: "Scalable shopping solution with integrated payment gateway and real-time analytics.",
-    tech: ["React", "Node.js", "Stripe API", "MongoDB"],
-    image: "/images/ecommerce-platform.png",
-  },
-  {
-    name: "Health Tracker App",
-    desc: "Mobile app for tracking fitness, nutrition, and wellness metrics.",
-    tech: ["React Native", "Firebase", "Redux"],
-    image: "/images/health-tracker.png",
-  },
-  {
-    name: "Enterprise ERP",
-    desc: "Custom ERP solution for manufacturing and logistics businesses.",
-    tech: ["Spring Boot", "React", "PostgreSQL"],
-    image: "/images/erp-system.png",
-  },
-  {
-    name: "AI Chatbot",
-    desc: "Intelligent chatbot for customer support using NLP and machine learning.",
-    tech: ["Python", "TensorFlow", "Dialogflow"],
-    image: "/images/ai-chatbot.png",
-  },
-  // ✅ Java Spring Projects
-  {
-    name: "Bank Loan Management System",
-    desc: "Spring Boot-based system to automate loan processing, approvals, and customer tracking.",
-    tech: ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
-    image: "/images/bank-loan-system.png",
-  },
-  {
-    name: "Inventory Management System",
-    desc: "Robust inventory tracking application with REST APIs and reporting dashboard.",
-    tech: ["Java", "Spring Boot", "PostgreSQL", "REST API"],
-    image: "/images/inventory-system.png",
+   {
+    name: "MyVastuAstro",
+    desc: "Vastu solution for companies with compass-based direction checks and expert query support.",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: myvastuastro,
   },
   {
     name: "Employee Management Portal",
     desc: "Spring Boot + React application for HR and employee management, attendance, and payroll.",
     tech: ["Java", "Spring Boot", "React", "MySQL"],
-    image: "/images/employee-portal.png",
+    image: employeePortal,
   },
   {
-    name: "Online Banking Platform",
-    desc: "Secure online banking solution with transaction management, account dashboard, and notifications.",
-    tech: ["Java", "Spring Boot", "Angular", "Oracle DB"],
-    image: "/images/online-banking.png",
+    name: "MyVastuAstrologer",
+    desc: "Connect with professional astrologers, manage profiles, and earn through chat and call services.",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: myvastuastrologer,
   },
+  {
+    name: "VastuDevayah",
+    desc: "Vastu solution for companies with compass-based direction checks and expert query support.",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: vastudevayah
+  },
+  {
+    name: "Smart Retail System",
+    desc: "AI-powered retail management solution with inventory optimization and sales analytics.",
+    tech: ["React", "Node.js", "Python", "AI/ML"],
+    image: retails_system
+  },
+  {
+    name: "Cloud CRM",
+    desc: "Customer relationship management system hosted on AWS with secure, scalable architecture.",
+    tech: ["React", "AWS", "Node.js", "MongoDB"],
+    image: cloud_crm
+  },
+  {
+    name: "E-commerce Platform",
+    desc: "Scalable shopping solution with integrated payment gateway and real-time analytics.",
+    tech: ["React", "Node.js", "Stripe API", "MongoDB"],
+    image: ecommerce
+  },
+  {
+    name: "Health Tracker App",
+    desc: "Mobile app for tracking fitness, nutrition, and wellness metrics.",
+    tech: ["React Native", "Firebase", "Redux"],
+    image: health
+  },
+  {
+    name: "Enterprise ERP",
+    desc: "Custom ERP solution for manufacturing and logistics businesses.",
+    tech: ["Spring Boot", "React", "PostgreSQL"],
+    image: erp_system
+  },
+  {
+    name: "AI Chatbot",
+    desc: "Intelligent chatbot for customer support using NLP and machine learning.",
+    tech: ["Python", "TensorFlow", "Dialogflow"],
+    image: ai_chatbot
+  },
+  // ✅ Java Spring Projects
+  {
+    name: "Loan Management System",
+    desc: "Spring Boot-based system to automate loan processing, approvals, and customer tracking.",
+    tech: ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
+    image: loan_system
+  },
+  {
+    name: "Inventory Management System",
+    desc: "Robust inventory tracking application with REST APIs and reporting dashboard.",
+    tech: ["Java", "Spring Boot", "PostgreSQL", "REST API"],
+    image: inventory_system
+  },
+  
 ];
 
 

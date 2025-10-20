@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-
+import logo from "../assets/logo.png";
 const Navbar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
@@ -27,16 +27,18 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled
           ? "bg-white/90 backdrop-blur-md shadow-md"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-blue-600">
-          99<span className="text-gray-800">softech</span> LLP
+        <Link to="/" className="flex items-center space-x-2">
+          <img src={logo} alt="Logo" className="h-8 w-8" />
+          <span className="text-2xl font-bold text-blue-600">
+            99<span className="text-gray-800">softech</span>
+          </span>
         </Link>
 
         {/* Desktop Menu */}
@@ -45,11 +47,10 @@ const Navbar = () => {
             <li key={item.path}>
               <Link
                 to={item.path}
-                className={`relative transition duration-300 ${
-                  location.pathname === item.path
+                className={`relative transition duration-300 ${location.pathname === item.path
                     ? "text-blue-600 font-semibold"
                     : "text-gray-700 hover:text-blue-600"
-                }`}
+                  }`}
               >
                 {item.label}
                 {location.pathname === item.path && (
@@ -78,11 +79,10 @@ const Navbar = () => {
                 <Link
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block py-2 text-lg ${
-                    location.pathname === item.path
+                  className={`block py-2 text-lg ${location.pathname === item.path
                       ? "text-blue-600 font-semibold"
                       : "text-gray-700 hover:text-blue-600"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>

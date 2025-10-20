@@ -7,11 +7,15 @@ const Careers = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
 
   const jobs = [
-    { title: "Full Stack Developer", desc: "Work on React, Node.js, Spring Boot projects." },
-    { title: "Mobile App Developer", desc: "Develop cross-platform apps using React Native & Flutter." },
-    { title: "UI/UX Designer", desc: "Design intuitive interfaces and user experiences." },
-    { title: "AI/ML Engineer", desc: "Build intelligent systems and predictive models." },
-  ];
+  { title: "Full Stack Developer", desc: "Work on React, Node.js, and Spring Boot projects for scalable web apps." },
+  { title: "Java Developer", desc: "Build and maintain enterprise-grade applications using Spring Boot and REST APIs." },
+  { title: "Node.js Developer", desc: "Develop high-performance backend services and APIs using Node.js and Express." },
+  { title: "React Developer", desc: "Create responsive and dynamic frontend interfaces using React and TypeScript." },
+  { title: "Python Developer", desc: "Develop automation tools, APIs, and data-driven applications using Python and Flask/Django." },
+  { title: "Mobile App Developer", desc: "Develop cross-platform mobile apps using React Native and Flutter." },
+  { title: "UI/UX Designer", desc: "Design intuitive user interfaces and seamless user experiences." },
+];
+  
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
