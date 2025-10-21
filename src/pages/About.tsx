@@ -34,7 +34,7 @@ const About = () => {
     <div className="bg-gray-50 min-h-screen py-16 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-extrabold text-blue-700 mb-4">
-          About <span className="text-gray-800">99softech LLP</span>
+          About <span className="text-gray-800">99softech</span>
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           We are a full-stack software development company delivering scalable,

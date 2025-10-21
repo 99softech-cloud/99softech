@@ -84,9 +84,8 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className={`w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition ${
-              loading ? "opacity-60 cursor-not-allowed" : "hover:bg-blue-700"
-            }`}
+            className={`w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition ${loading ? "opacity-60 cursor-not-allowed" : "hover:bg-blue-700"
+              }`}
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
@@ -94,9 +93,8 @@ const Contact = () => {
           {/* ✅ Alert messages */}
           {alert && (
             <p
-              className={`mt-3 text-center font-medium ${
-                alert.type === "success" ? "text-green-600" : "text-red-600"
-              }`}
+              className={`mt-3 text-center font-medium ${alert.type === "success" ? "text-green-600" : "text-red-600"
+                }`}
             >
               {alert.message}
             </p>
@@ -111,13 +109,13 @@ const Contact = () => {
             <p className="text-gray-600 mb-2">📞 +91 78179 76567</p>
             <p className="text-gray-600 mb-2">✉️ 99softech@gmail.com</p>
             <div className="flex gap-4 mt-4">
-              <a href="#" className="text-blue-600 hover:text-blue-800">
+              <a href="https://www.linkedin.com/in/softech-llp-4b1071390/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                 LinkedIn
               </a>
-              <a href="#" className="text-blue-600 hover:text-blue-800">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                 Twitter
               </a>
-              <a href="#" className="text-blue-600 hover:text-blue-800">
+              <a href="#"  target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                 Facebook
               </a>
             </div>
