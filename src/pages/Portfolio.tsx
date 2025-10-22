@@ -11,6 +11,7 @@ import erp_system from "../assets/erp_system.png";
 import ai_chatbot from "../assets/ai_chatbot.png";
 import loan_system from "../assets/loan_system.png";
 import inventory_system from "../assets/inventory_system.png";
+import softech from "../assets/logo.png";
 
 
 const Portfolio = () => {
@@ -87,6 +88,12 @@ const Portfolio = () => {
     desc: "Robust inventory tracking application with REST APIs and reporting dashboard.",
     tech: ["Java", "Spring Boot", "PostgreSQL", "REST API"],
     image: inventory_system
+  },
+   {
+    name: "99softech",
+    desc: "Full-stack software company specializing in web, mobile, backend, and DevOps.",
+    tech: ["Nodejs", "React", "MongoDB", "TailwindCSS"],
+    image: softech
   },
   
 ];
