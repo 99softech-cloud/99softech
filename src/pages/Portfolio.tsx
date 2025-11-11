@@ -12,6 +12,8 @@ import ai_chatbot from "../assets/ai_chatbot.png";
 import loan_system from "../assets/loan_system.png";
 import inventory_system from "../assets/inventory_system.png";
 import softech from "../assets/logo.png";
+import oneto1Advice from "../assets/oneto1advice.png";
+import smartweightsystem from "../assets/smartweightsystem.png";
 
 
 const Portfolio = () => {
@@ -94,6 +96,18 @@ const Portfolio = () => {
     desc: "Full-stack software company specializing in web, mobile, backend, and DevOps.",
     tech: ["Nodejs", "React", "MongoDB", "TailwindCSS"],
     image: softech
+  },
+   {
+    name: "Oneto1Advice",
+    desc: "It is provide authentic financial advices according to need of our clients and try to give our best advice to maximise the profits of our members and satisfy our clients for longer period of time",
+    tech: ["Nodejs", "React", "MongoDB", "TailwindCSS"],
+    image: oneto1Advice
+  },
+  {
+    name: "Smart Weight System",
+    desc: "This project is a custom-built Sugar Mill Management System that automates sugarcane weighing, receipt generation, and record management. It integrates with a digital weighbridge to capture weight data, calculates net weight, and prints purchies instantly. The system manages farmer details, payments, and inventory while generating real-time reports for efficient mill operations.",
+    tech: ["React-native(Android/IOS)"],
+    image: smartweightsystem
   },
   
 ];
